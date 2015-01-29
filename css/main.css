@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.edit_ctrls {
+  display: none; // you're using diaplay!
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.push_down {
+	margin-top: 25px;
+}
+
+.push_down2 {
+	margin-top: 20px;
+}
+
+h3 { margin-top: 15px;
+	 margin-bottom: 15px; 
+}
+
+.rname_margin {
+	margin-left: 3px;
+}
+
+.navbar-default .navbar-brand {
+text-shadow: rgb(32, 45, 58) 1px 1px,
+    rgb(32, 45, 58) 2px 2px,
+    rgb(33, 46, 60) 3px 3px,
+    rgb(34, 48, 62) 4px 4px,
+    rgb(35, 50, 64) 5px 5px,
+    rgb(36, 51, 66) 6px 6px,
+    rgb(38, 53, 69) 7px 7px,
+    rgb(39, 55, 71) 8px 8px,
+    rgb(40, 56, 73) 9px 9px,
+    rgb(41, 58, 75) 10px 10px,
+    rgb(42, 60, 77) 11px 11px,
+    rgb(44, 62, 80) 12px 12px;
+}
+
+.modal-content {
+	background-color: #2c3e50;
+}
+
+.modal-body {
+	color: #fff;
+	background-color: #798d8f;
+}
+
+.modal-header-txt {
+	color: #fff;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #1a242f;
+border-color: #1a242f;
+}
+
+.black_card { 
+    display: inline-block;
+    width: 14px; 
+    height: 19px; 
+    background: black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.white_card { 
+    width: 12px; 
+    height: 17px; 
+    background: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
